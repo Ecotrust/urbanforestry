@@ -136,13 +136,13 @@ class Species(object):
 # Example usage to create an equation for a species
        
 # First, create the Species object
-ACRU = Species('ACRU', 'Acer rubrum')
+ACRU = Species('Acer rubrum')
 
 # Then, add a an equation (in this case, dbh_to_ht)
 ACRU.add_eq('dbh', 'ht', 'quad', 2.15761, 0.29592, -0.00158)
 
 # If you wanted to calculate ht from a tree with known dbh of 6.5cm:
-ACRU.dbh_to_ht.calc(6.5)        
+ACRU.dbh_to_ht.calc(6.5, inverse= False)        
 
 # If you wanted to calculate dbh from a tree with known ht of 10m:
 ACRU.dbh_to_ht.calc(10, inverse=True) 
