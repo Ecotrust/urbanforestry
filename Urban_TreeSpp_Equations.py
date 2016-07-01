@@ -71,11 +71,11 @@ class Equation(object):
         elif inverse: # we're solving for x using y
             y = float(measurement)
             x = Symbol('x')
-            if self.eq_form == 'linear':
+            if self.eq_form == 'linear' or self.eq_form == 'lin':
                 value = solve (a + b*x - y, x)
-            elif self.eq_form == 'quadratic':
+            elif self.eq_form == 'quadratic' or self.eq_form == 'quad':
                 value = solve(a + b*x + c*x**2 - y, x)
-            elif self.eq_form == 'cubic':
+            elif self.eq_form == 'cubic' or self.eq_form == 'cub':
                 value = solve(a + b*x + c*x**2 + d*x**3 - y, x)
             elif self.eq_form == 'quartic':
                 value = solve(a + b*x + c*x**2 + d*x**3 + e*x**4 - y, x)

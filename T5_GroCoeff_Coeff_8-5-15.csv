@@ -13,6 +13,10 @@ CenFla,Cinnamomum camphora,CICA,dbh,crown ht,meters,1/sqrt(dbh),cub,1.01405,0.26
 CenFla,Cinnamomum camphora,CICA,age,dbh,centimeters,1/age,quad,-0.87708,2.85059,-0.01321,,,1.96,150.7,8.4086,58,0.9,4.826,150.622,55
 CenFla,Cinnamomum camphora,CICA,dbh,leaf area,sq. meters,1,loglogw1,-2.82649,6.13761,0.38432,,,0.27,1438.7,0.61993,57,0.803,1.318894092,1679.395832,55
 CenFla,Cinnamomum camphora,CICA,dbh,tree ht,meters,1,cub,2.53889,0.34177,-0.00365,0.00001,,3.19,18.22,7.71877,63,0.536,2,18.5,59
+CenFla,Eriobotrya japonica,ERJA,dbh,age,years,1/dbh,lin,2.45205,0.38214,,,,1,30,0.66744,30,0.637,2,23,28
+CenFla,Eriobotrya japonica,ERJA,cdia,dbh,meters,1,loglogw1,1.5042,2.39219,0.06057,,,3.5,54.87,0.24612,30,0.892,1.524,42.97707021,28
+CenFla,Eriobotrya japonica,ERJA,dbh,crown dia,meters,1/dbh,lin,0.83558,0.22941,,,,1.23,13.42,0.04597,30,0.903,1,10,28
+CenFla,Eriobotrya japonica,ERJA,dbh,crown ht,meters,1/dbh,lin,0.47577,0.14851,,,,0.73,8.63,0.05376,30,0.768,0.5,9,28
 CenFla,Eriobotrya japonica,ERJA,age,dbh,centimeters,1/age,lin,1.72609,1.77157,,,,1.73,54.87,5.60377,30,0.609,1.524,42.97707021,28
 CenFla,Eriobotrya japonica,ERJA,dbh,leaf area,sq. meters,1,loglogw1,-3.07252,6.13881,0.22352,,,0.88,281.8,0.47278,26,0.941,0.057184917,206.2428309,24
 CenFla,Eriobotrya japonica,ERJA,dbh,tree ht,meters,1/dbh,quad,1.15555,0.28024,-0.00266,,,1.63,8.54,0.05599,30,0.838,1.5,11,27
